@@ -1,0 +1,866 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+
+    background: #434551;
+}
+.bg-img{
+    background-image: url(../imges/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+body img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 50px;
+    top: 14%;
+    width: 250px;
+    border: solid 2px #ff9301;
+    border-radius: 15px;
+}
+header{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+a,h1{
+    text-decoration: none;
+    color: #fff;
+    
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+.logo h1{ 
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.logo h1 span{
+    color: #ff9301;
+    font-size: 45px;
+}
+.navbar .menu li{
+    margin:0 20px;
+}
+.navbar .menu li:hover{
+    transform: translateY(10px);
+    transition: 0.5s;
+}
+.navbar .menu li a{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+.navbar .menu li a:hover{
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+    color: #ff9301;
+}
+.active{
+    color: #ff9301;
+}
+.banner{
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 150px;
+    color: #fff;
+}
+.app-text{
+    width: 50%;
+    float: left;
+    margin: 30px 0 30px 40px;
+}
+.app-text h6{
+    color: #919191;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 20px;
+}
+.app-text h2{
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #fff;
+}
+.app-text h3{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    line-height: 1;
+    color: #ff9301;
+}
+.app-text p{
+    width: 500px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #919191;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ff9301;
+    text-align: center;
+    display: block;
+}
+.Education{
+    position: absolute;
+    left:50px;
+    top: 15%;
+    padding: 15px;
+    color: #fff;
+}
+.Education ul{
+    position: relative;
+    right: 150px;
+    top: 50px;
+    margin: 10px -30px;
+    text-align: center;
+    font-size: 20px;
+}
+.Education ul li{
+    margin: 0 50px;
+    display: inline-block;
+    padding: 10px ;
+    cursor: pointer;
+}
+.Education ul li:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.Education ul li i{
+    font-size: 50px;
+    color: #ff9301;
+}
+.Education ul span{
+    display: block;
+    color: #919191;
+    text-align: center;
+}
+.Education ul li img{
+    position: relative;
+    width: 500px;
+    margin-top: 40px;
+
+}
+.Projects{
+    position: absolute;
+    left: 15px;
+    top: 15%;
+    color: #fff;
+    margin: 0 -30px;
+    
+}
+.Projects ul{
+    margin: 10px -150px;
+    text-align: center;
+}
+.Projects ul li{
+    margin: 0 -25px;
+    display: inline-block;
+    padding: 20px ;
+    cursor: pointer;
+}
+.Projects ul li:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.Projects ul li i{
+    font-size: 50px;
+    color: #ff9301;
+    
+}
+.Projects ul span{
+    display: block;
+    color: #919191;
+    text-align: center;
+    
+}
+.Projects ul li img{
+    position: relative;
+    left: 20px;
+    width: 400px;
+    margin-top: 30px;
+    padding: 5px;
+}
+.skill{
+   position: absolute;
+   left: 100px; 
+   top: 15%;
+   z-index: 10; 
+   width: 50%;  
+}
+.progress{
+    color: #ff9301;
+    margin: 25px;
+    height: 20px;
+    border: #ff9301 solid 3px;
+    
+}
+.progress .progress-bar{
+    background-color: #ff9301;
+}
+ .skill div{
+    font-size: 15px;
+    color: #434551;
+    text-align: right;
+ }
+.progress:hover{
+    transform: translatex(-10px);
+    transition: 0.5s;
+}
+ .contact{
+    margin: 10px -30px;
+    text-align: center;
+    position: absolute;
+    left: 50px;
+    top: 20%;
+    
+ }
+ .contact ul{
+    margin: 10px -30px;
+    text-align: center;
+ }
+ .contact ul li{
+    margin: 50px 50px;
+    display: inline-block;
+    padding: 10px ;
+    cursor: pointer;
+}
+.contact ul li:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.contact ul li i{
+    font-size: 50px;
+    color: #ff9301;
+}
+@media screen and (max-width:1217px) {
+    .Education{
+        position: absolute;
+        left:50px;
+        top: 15%;
+        padding: 15px;
+        color: #fff;
+    }
+    .Education ul{
+        position: relative;
+        right: 150px;
+        top: 50px;
+        margin: 10px -30px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .Education ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+    }
+    body img{
+        width: 250px;
+        right: 20px;
+        top: 15%;
+    }
+    .Projects{
+        left: 15px;
+        top: 15%;
+        margin: 0 -30px;
+        
+    }
+    .Projects ul{
+        margin: 10px -150px;
+        text-align: center;
+    }
+    .Projects ul li{
+        margin: 0 -25px;
+        display: inline-block;
+        padding: 20px ;
+        cursor: pointer;
+    }
+    .Projects ul span{
+        display: block;
+        color: #919191;
+        text-align: center;
+        
+    }
+    .Projects ul li img{
+        position: relative;
+        left: 20px;
+        width: 300px;
+        margin-top: 30px;
+        padding: 5px;
+    }
+    .Projects ul li i{
+        font-size: 30px;
+        color: #ff9301;
+        
+    }
+}
+@media screen and (max-width:1144px) {
+    .banner{
+        left: 80px;  
+    }
+    .logo h1{
+        font-size: 35px;
+       }
+    .logo h1 span{
+        font-size: 40px;
+       }   
+    .app-text h2{
+        font-size: 60px;
+    }
+    body img{
+        width: 250px;
+        top: 12%;
+    }
+    header{
+        margin: 10px 0 ;
+        padding: 15px 40px;
+    }
+    ul.menu{   
+       padding: 0 10px;
+    }
+    .navbar .menu li{  
+        margin: 0 5px;
+    }
+    .Projects{
+        left: 15px;
+        top: 20%;
+        margin: 0 50px; 
+    }
+    .Projects ul{
+        margin: 10px -150px;
+    }
+    .Projects ul li{
+        margin: 0 -25px;
+        padding: 20px ;
+    }
+    .Projects ul span{
+        float: 15px;
+
+    }
+    .Projects ul li img{
+        left: 20px;
+        width: 300px;
+        margin-top: 30px;
+
+    }
+    .Projects ul li i{
+        font-size: 30px;
+        color: #ff9301;
+    }
+   
+}
+@media screen and (max-width:992px) {
+    .banner{
+        left: 50px;  
+    }
+    .app-text h2{
+        font-size: 40px;
+    }
+    .logo h1{
+        font-size: 30px;
+       }
+    .app-text h3{
+        font-size: 35px;
+    }
+    body img{
+        width: 230px;
+        top: 15%;
+        right: 20px;
+    }
+    header{
+        margin: 10px 0 ;
+        padding: 15px 15px;
+        width: 100%;
+        
+    }
+    ul.menu{  
+        
+       padding: 0 10px;
+    }
+    .navbar .menu li{  
+        margin: 0 5px;
+        
+    }
+    .navbar .menu li a{
+        font-size: 20px;
+        
+    }
+    .Education{
+        top: 5%;
+        padding: 5px;
+        color: #fff;
+        
+    }
+    .Education ul{
+        position: relative;
+        right: 150px;
+        top: -25px;
+        margin: 5px -30px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .Education ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+    }
+    .Projects{
+        top: -20%;
+        left: 200px;
+        padding: 5px;
+    }
+    .Projects ul{
+        position: relative;
+        right: 150px;
+        top: -25px;
+        margin: 5px -30px;
+        font-size: 18px;
+
+    }
+    .Projects ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+    }
+    .Projects ul span{
+        float: 15px;
+    }
+    .Projects ul li img{
+        left: 20px;
+        width: 250px;
+        margin-top: 30px;
+    }
+    .Projects ul li i{
+        font-size: 25px;
+        color: #ff9301;
+    } 
+}
+@media screen and (max-width:829px) {
+    .banner{
+        left: 20px;  
+    }
+    p{
+        font-size: 15px;
+    }
+    .logo h1{
+    font-size: 20px;
+   }
+    .app-text h2{
+        font-size: 40px;
+    }
+    .app-text h3{
+        font-size: 35px;
+    }
+    body img{
+        width: 230px;
+        top: 20%;
+        right: 10px;
+        
+    }
+    header{
+        margin: 10px 0 ;
+        padding: 15px 15px;
+    }
+    ul.menu{   
+       padding: 0 10px;
+    }
+    .navbar .menu li{  
+        margin: 0 5px;
+    }
+    .navbar .menu li a{
+        font-size: 15px;
+    }
+    .Education{
+        top: 5%;
+        padding: 5px;
+        color: #fff;
+        
+    }
+    .Education ul{
+        position: relative;
+        right: 100px;
+        top: -25px;
+        margin: 5px -30px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .Education ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .Education ul li i{
+        font-size: 35px;
+        color: #ff9301;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner{
+        left: 1px;
+        margin-left: -30px;  
+    }
+    p{
+        font-size: 15px;
+    }
+   .logo h1{
+    font-size: 20px;
+   }
+    .app-text h2{
+        font-size: 40px;
+    }
+    .app-text h3{
+        font-size: 30px;
+    }
+    body img{
+        width: 200px;
+        top: 20%;
+        right: 10px;
+        
+    }
+    header{
+        margin: 10px 0 ;
+        padding: 15px 15px;
+        width: 100%;  
+    }
+    ul.menu{   
+       padding: 10px;
+    }
+    .navbar .menu li{  
+        margin: 0 10px;
+    }
+    .navbar .menu li a{
+        font-size: 15px;
+    }
+    .Education{
+        top: 5%;
+        padding: 5px;
+        color: #fff;
+        
+    }
+    .Education ul{
+        position: relative;
+        right: 100px;
+        top: -25px;
+        margin: 5px -30px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .Education ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .Education ul li i{
+        font-size: 35px;
+        color: #ff9301;
+    }
+    .Projects{
+        top: 1%;
+        margin: 10 -25px;  
+    }
+    .Projects ul{
+        margin: 10px -50px;
+    }
+    .Projects ul li{
+        margin: 0 -25px;
+        padding: 20px ;
+    }
+    .Projects ul li img{
+
+        width:400px;
+    }
+    span{
+        padding-left: 80px;
+    }
+    .Projects{
+        top: -30%;
+        left: 200px;
+        padding: 5px;
+    }
+    .Projects ul{
+        position: relative;
+        right: 150px;
+        top: -25px;
+        margin: 5px -30px;
+        font-size: 18px;
+
+    }
+    .Projects ul li{
+        margin: 0 40px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+    }
+    .Projects ul li img{
+        left: 20px;
+        width: 200px;
+        margin-top: 30px;
+    }
+    .Projects ul li i{
+        font-size: 25px;
+        color: #ff9301;
+    }  
+}
+@media screen and (max-width:708px) {
+    .banner{
+        left: 1px;
+        margin-left: -30px;  
+    }
+    p{
+        font-size: 15px;
+        padding-right: 150px;
+    }
+   .logo h1{
+    font-size: 20px;
+   }
+    .app-text h2{
+        font-size: 30px;
+    }
+    .app-text h3{
+        font-size: 20px;
+    }
+    body img{
+        width: 180px;
+        top: 25%;
+        right: 10px;
+        
+    }
+    header{
+        margin: 10px 0 ;
+        padding: 15px 15px;
+        width: 100%;  
+    }
+    ul.menu{   
+       padding: 10px;
+    }
+    .navbar .menu li{  
+        margin: 0 5px;
+    }
+    .navbar .menu li a{
+        font-size: 15px;
+    }
+    .Education{
+        top: 5%;
+        padding: 5px;
+        color: #fff;
+        
+    }
+    .Education ul{
+        position: relative;
+        right: 100px;
+        top: -25px;
+        margin: 5px -30px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .Education ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .Education ul li i{
+        font-size: 35px;
+        color: #ff9301;
+    }
+    .Projects{
+        position: fixed;
+        top: -5%;
+        left: 200px;
+        padding: 0px;
+        
+    }
+    .Projects ul{
+        position: relative;
+        right: 150px;
+        top: 150px;
+        margin: 5px -30px;
+        font-size: 15px;
+    }
+    .Projects ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+    }
+    .Projects ul span{
+        float: 15px;
+    }
+    .Projects ul li img{
+        left: 20px;
+        width: 200px;
+        margin-top: 30px;
+    }
+    .Projects ul li i{
+        font-size: 15px;
+        color: #ff9301;
+    }
+    .contact{
+        margin: 0px -30px;
+        left: 50px;
+        top: 20%;
+        
+     }
+     .contact ul{
+        margin: 0px 30px;
+
+     }
+     .contact ul li{
+        margin: 0px 50px;
+        padding: 0px ;
+
+    }
+    .contact ul li i{
+        font-size: 30px;
+        color: #ff9301;
+    } 
+}
+@media screen and (max-width:576px) {
+    .banner{
+        left: 1px;
+        top: 350px;
+        height: 500px;
+    }
+    p{
+        font-size: 15px;
+        padding-right: 150px;
+    }
+   .logo h1{
+    font-size: 15px;
+   }
+   .logo h1 span{
+    font-size: 15px;
+   }
+    .app-text h2{
+        font-size: 30px;
+    }
+    .app-text h3{
+        font-size: 20px;
+    }
+    body img{
+        width: 180px;
+        top: 10%;
+        left: 25px;
+        display: none;
+    }
+    header{
+        margin: 10px 0 ;
+        padding: 15px 15px;
+        width: 100%;  
+    }
+    ul.menu{   
+       padding: 10px;
+    }
+    .navbar .menu li{  
+        margin: 0 1px;
+    }
+    .navbar .menu li a{
+        font-size: 15px;
+    }
+    .Education{
+        top: 5%;
+        padding: 5px;
+        color: #fff;
+        
+    }
+    .Education ul{
+        position: relative;
+        right: 100px;
+        top: -25px;
+        margin: 5px -5px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .Education ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .Education ul li i{
+        font-size: 15px;
+        color: #ff9301;
+    }
+    span{
+        font-size: 15px;
+    }
+    .Projects{
+        top: 5%;
+        left: 5px;
+        padding: 0px;
+        
+    }
+    .Projects ul{
+        position: relative;
+        right: 50px;
+        top: 150px;
+        margin: 5px -30px;
+        font-size: 15px;
+    }
+    .Projects ul li{
+        margin: 0 50px;
+        display: inline-block;
+        padding: 10px ;
+        cursor: pointer;
+    }
+    .Projects ul span{
+        float: 15px;
+    }
+    .Projects ul li img{
+        left: 200px;
+        width: 200px;
+        margin-top: 30px;
+        display: block;
+    }
+    .Projects ul li i{
+        font-size: 15px;
+        color: #ff9301;
+    }
+    .contact{
+        margin: 0px -30px;
+        left: 50px;
+        top: -20%; 
+     }
+     .contact ul{
+        margin: 0px 30px;
+     }
+     .contact ul li{
+        margin: 0px 50px;
+        padding: 0px ;
+    }
+    .contact ul li i{
+        font-size: 30px;
+        color: #ff9301;
+    }  
+}
